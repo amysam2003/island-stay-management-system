@@ -2,7 +2,8 @@
 The Island Stay Management System is a system built to manage a Hotel's main managements such as Bookings, Rooms, Reviews and Guests. 
 
 ## Overview
-This project is built using the Backend System, API Implementation and Database Integration. Database Integration includes both SQL and NoSQL Databases and the System performs all the CRUD Operations and uses the Clear and Simple Layered-Architecture. Used Java and Spring Boot for this. 
+This project is built using the Backend System, API Implementation and Database Integration. Database Integration includes both SQL and NoSQL Databases and the System performs all the CRUD Operations and uses the Clear and Simple Layered-Architecture. Used Java and Spring Boot for this. Here, the SQL and NoSQL are not connected with each other directly, but each of the Database-SQL Database and NoSQL Database is conencted to the Spring Boot Application only. The main is SQL Database. NoSQL Database is used only for demonstration purposes. 
+
 The Project provides the RESTful APIs to perform the CRUD Operations.
 It also handles the errors.
 
